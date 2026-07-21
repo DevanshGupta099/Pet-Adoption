@@ -1,3 +1,8 @@
+import birdImg from './assets/birds.jpg';
+import kittenImg from './assets/kitten.jpg';
+import puppy1Img from './assets/puppy1.jpg';
+import puppy2Img from './assets/puppy2.jpg';
+
 export const petsData = [
   {
     id: 'PET-001',
@@ -35,7 +40,7 @@ export const petsData = [
     category: 'Bird',
     age: '6 Mos',
     status: 'Available',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Macaw_profile.jpg/800px-Macaw_profile.jpg',
+    image: birdImg,
     description: 'A colorful and chatty parrot looking for a fun family.',
     centerContact: '1-800-555-0103'
   },
@@ -45,7 +50,7 @@ export const petsData = [
     category: 'Kitten',
     age: '3 Mos',
     status: 'Available',
-    image: 'https://cdn2.thecatapi.com/images/1g.jpg',
+    image: kittenImg,
     description: 'A fluffy white kitten who enjoys gentle pets.',
     centerContact: '1-800-555-0104'
   },
@@ -55,7 +60,7 @@ export const petsData = [
     category: 'Puppy',
     age: '4 Mos',
     status: 'Available',
-    image: 'https://images.dog.ceo/breeds/germanshepherd/n02106662_16238.jpg',
+    image: puppy1Img,
     description: 'A sweet and protective German Shepherd puppy.',
     centerContact: '1-800-555-0101'
   },
@@ -65,7 +70,7 @@ export const petsData = [
     category: 'Cat',
     age: '4 Yrs',
     status: 'Available',
-    image: 'https://cdn2.thecatapi.com/images/2b.jpg',
+    image: kittenImg,
     description: 'An independent but cuddly tabby cat.',
     centerContact: '1-800-555-0102'
   },
@@ -85,7 +90,7 @@ export const petsData = [
     category: 'Puppy',
     age: '2 Mos',
     status: 'Available',
-    image: 'https://images.dog.ceo/breeds/corgi-cardigan/n02113186_1241.jpg',
+    image: puppy2Img,
     description: 'A playful corgi puppy looking for adventure.',
     centerContact: '1-800-555-0101'
   }
