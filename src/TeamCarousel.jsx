@@ -1,12 +1,12 @@
 import React from 'react';
 
 const team = [
-  { name: 'Sarah Jenkins', role: 'BOARDING | EXP 3 YRS', image: 'https://loremflickr.com/300/300/portrait?lock=60' },
-  { name: 'Mike Ross', role: 'TRAINER | EXP 5 YRS', image: 'https://loremflickr.com/300/300/portrait?lock=61' },
-  { name: 'Emily Chen', role: 'SITTER | EXP 2 YRS', image: 'https://loremflickr.com/300/300/portrait?lock=62' },
-  { name: 'David Smith', role: 'TRAINER | EXP 8 YRS', image: 'https://loremflickr.com/300/300/portrait?lock=63' },
-  { name: 'Jessica Alba', role: 'BOARDING | EXP 4 YRS', image: 'https://loremflickr.com/300/300/portrait?lock=64' },
-  { name: 'Chris Evans', role: 'SITTER | EXP 1 YR', image: 'https://loremflickr.com/300/300/portrait?lock=65' },
+  { name: 'Sarah Jenkins', role: 'BOARDING | EXP 3 YRS', image: 'https://randomuser.me/api/portraits/women/44.jpg' },
+  { name: 'Mike Ross', role: 'TRAINER | EXP 5 YRS', image: 'https://randomuser.me/api/portraits/men/32.jpg' },
+  { name: 'Emily Chen', role: 'SITTER | EXP 2 YRS', image: 'https://randomuser.me/api/portraits/women/68.jpg' },
+  { name: 'David Smith', role: 'TRAINER | EXP 8 YRS', image: 'https://randomuser.me/api/portraits/men/46.jpg' },
+  { name: 'Jessica Alba', role: 'BOARDING | EXP 4 YRS', image: 'https://randomuser.me/api/portraits/women/65.jpg' },
+  { name: 'Chris Evans', role: 'SITTER | EXP 1 YR', image: 'https://randomuser.me/api/portraits/men/55.jpg' },
 ];
 
 const TeamCarousel = () => {
