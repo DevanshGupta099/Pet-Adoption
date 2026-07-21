@@ -4,19 +4,19 @@ const events = [
   {
     title: 'Puppy Playdate in the Park',
     date: 'Saturday, 12th August, 10:00 AM',
-    image: 'https://loremflickr.com/600/400/dog,park?lock=40',
+    image: 'https://images.dog.ceo/breeds/retriever-golden/n02099601_3004.jpg',
     desc: 'Bring your puppies for a morning of fun, socializing, and games. A great way for them to make new friends!',
   },
   {
     title: 'Relaxing Cat Yoga',
     date: 'Sunday, 13th August, 09:00 AM',
-    image: 'https://loremflickr.com/600/400/cat,yoga?lock=41',
+    image: 'https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg',
     desc: 'Join us for a peaceful morning of outdoor yoga alongside adorable rescue kittens.',
   },
   {
     title: 'Parrot Sing-along & Show',
     date: 'Saturday, 19th August, 02:00 PM',
-    image: 'https://loremflickr.com/600/400/parrot?lock=42',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Macaw_profile.jpg/800px-Macaw_profile.jpg',
     desc: 'A wildly entertaining afternoon featuring talented, chatty birds. Perfect for the whole family!',
   }
 ];
