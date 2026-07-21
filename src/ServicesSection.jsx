@@ -1,24 +1,25 @@
 import React from 'react';
+import kittenImg from './assets/kitten.jpg';
 
 const services = [
   {
     title: 'Adopt a Pet',
-    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80',
+    image: 'https://loremflickr.com/600/400/dog?lock=10',
     desc: 'Give a loving home to a pet in need.',
   },
   {
     title: 'Looking for Pet Sitter?',
-    image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80',
+    image: 'https://loremflickr.com/600/400/pets?lock=11',
     desc: 'Professional sitters for your furry friends.',
   },
   {
     title: 'Pet Training',
-    image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=600&q=80',
+    image: 'https://loremflickr.com/600/400/dog,training?lock=12',
     desc: 'Expert training for a well-behaved pet.',
   },
   {
     title: 'Veterinary Care',
-    image: 'https://images.unsplash.com/photo-1628009368231-7bb7cbcb8122?auto=format&fit=crop&w=600&q=80',
+    image: kittenImg,
     desc: 'Top notch medical care and checkups.',
   }
 ];

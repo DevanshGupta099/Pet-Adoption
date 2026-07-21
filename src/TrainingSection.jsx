@@ -1,4 +1,5 @@
 import React from 'react';
+import birdImg from './assets/birds.jpg';
 
 const TrainingSection = () => {
   return (
@@ -12,7 +13,7 @@ const TrainingSection = () => {
           <div className="flex bg-[#FBF8F1] rounded-3xl p-8 relative overflow-hidden">
             {/* Partial edge bird image */}
             <img
-              src="https://images.unsplash.com/photo-1552728089-571681137f62?auto=format&fit=crop&w=300&q=80"
+              src={birdImg}
               alt="Bird"
               className="absolute -left-12 top-1/2 -translate-y-1/2 w-40 h-40 object-cover rounded-full border-4 border-white shadow-xl hidden sm:block"
             />
@@ -46,7 +47,7 @@ const TrainingSection = () => {
             </div>
             {/* Partial edge cat image */}
             <img
-              src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=300&q=80"
+              src="https://loremflickr.com/400/400/cat?lock=21"
               alt="Cat"
               className="absolute -right-12 top-1/2 -translate-y-1/2 w-40 h-40 object-cover rounded-full border-4 border-white shadow-xl hidden sm:block"
             />

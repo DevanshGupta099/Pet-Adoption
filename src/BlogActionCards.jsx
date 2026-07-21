@@ -1,4 +1,5 @@
 import React from 'react';
+import puppyImg from './assets/puppy1.jpg';
 
 const BlogActionCards = () => {
   return (
@@ -9,7 +10,7 @@ const BlogActionCards = () => {
 
         {/* Card 1 */}
         <div className="relative h-64 rounded-2xl overflow-hidden group">
-          <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=600&q=80" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Dog" />
+          <img src="https://loremflickr.com/600/400/dog,stray?lock=30" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Dog" />
           <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-6 text-left">
             <h3 className="font-bold text-2xl text-white mb-2 leading-tight">Report a stray dog</h3>
             <p className="text-brand-green font-bold flex items-center gap-2">
@@ -20,7 +21,7 @@ const BlogActionCards = () => {
 
         {/* Card 2 */}
         <div className="relative h-64 rounded-2xl overflow-hidden group">
-          <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Cat" />
+          <img src="https://loremflickr.com/600/400/pets,team?lock=31" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Cat" />
           <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-6 text-left">
             <h3 className="font-bold text-2xl text-white mb-2 leading-tight">Want to join us?</h3>
             <p className="text-brand-green font-bold flex items-center gap-2">
@@ -31,7 +32,7 @@ const BlogActionCards = () => {
 
         {/* Card 3 */}
         <div className="relative h-64 rounded-2xl overflow-hidden group">
-          <img src="https://images.unsplash.com/photo-1597626133668-2074d054d747?auto=format&fit=crop&w=600&q=80" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Rescue" />
+          <img src={puppyImg} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Rescue" />
           <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-6 text-left">
             <h3 className="font-bold text-2xl text-white mb-2 leading-tight">Report animal harassment</h3>
             <p className="text-red-400 font-bold flex items-center gap-2">
