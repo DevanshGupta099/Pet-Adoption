@@ -9,6 +9,7 @@ import TrainingSection from './TrainingSection';
 import MissionStats from './MissionStats';
 import TeamCarousel from './TeamCarousel';
 import BlogActionCards from './BlogActionCards';
+import PetEventsSection from './PetEventsSection';
 import Footer from './Footer';
 import AdoptionModal from './AdoptionModal';
 import AddPetSection from './AddPetSection';
@@ -41,6 +42,7 @@ function App() {
         <MissionStats />
         <TeamCarousel />
         <BlogActionCards />
+        <PetEventsSection />
         <Footer />
 
         <AdoptionModal />
