@@ -1,25 +1,22 @@
 import React from 'react';
-import puppy2Img from './assets/puppy2.jpg';
-import kittenImg from './assets/kitten.jpg';
-import birdImg from './assets/birds.jpg';
 
 const events = [
   {
     title: 'Puppy Playdate in the Park',
     date: 'Saturday, 12th August, 10:00 AM',
-    image: puppy2Img,
+    image: 'https://loremflickr.com/600/400/dog,park?lock=40',
     desc: 'Bring your puppies for a morning of fun, socializing, and games. A great way for them to make new friends!',
   },
   {
     title: 'Relaxing Cat Yoga',
     date: 'Sunday, 13th August, 09:00 AM',
-    image: kittenImg,
+    image: 'https://loremflickr.com/600/400/cat,yoga?lock=41',
     desc: 'Join us for a peaceful morning of outdoor yoga alongside adorable rescue kittens.',
   },
   {
     title: 'Parrot Sing-along & Show',
     date: 'Saturday, 19th August, 02:00 PM',
-    image: birdImg,
+    image: 'https://loremflickr.com/600/400/parrot?lock=42',
     desc: 'A wildly entertaining afternoon featuring talented, chatty birds. Perfect for the whole family!',
   }
 ];
